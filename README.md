@@ -11,6 +11,7 @@ The IOA Ticketing System is a ticket purchasing and ride selection web applicati
 
 ## Technologies Used
 - **Frontend**: React.js, CSS
+- **Backend**: Java (Spring Boot), Node.js (Express) - planned for future updates
 - **Routing**: React Router
 - **Styling**: Custom CSS, Bootstrap
 
@@ -28,12 +29,18 @@ To run the project locally:
    npm install
    ```
 
-3. **Run the application**
+3. **Run the frontend application**
    ```bash
    npm start
    ```
 
-4. **Open in your browser**
+4. **Run the backend application**
+   Navigate to the `src/main/java` folder and run the Spring Boot application from your IDE or using the command line:
+   ```bash
+   ./mvnw spring-boot:run
+   ```
+
+5. **Open in your browser**
    The app should be accessible at `http://localhost:3000`
 
 ## Usage
@@ -43,7 +50,7 @@ To run the project locally:
 
 ## Future Updates
 This project will be incrementally updated to include:
-- Backend integration using Node.js to store ticket and ride data.
+- Backend integration using Java and Node.js to store ticket and ride data.
 - Enhanced ride information and user experience.
 - Improved styling and mobile responsiveness.
 
@@ -52,4 +59,6 @@ Feel free to fork this repository, make enhancements, and submit a pull request.
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
+
+
 
